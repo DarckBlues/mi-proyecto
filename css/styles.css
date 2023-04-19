@@ -1,7 +1,7 @@
 /* En este archivo escriban su CSS */
 
 /* Fonts */
-/* Importar aquí la font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 
 
@@ -35,6 +35,31 @@ a {
 main {
     max-width: 1200px;
     margin: auto;
+}
+
+/*Estilos Generales*/
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #fbfbfb;
+    color:#0f0f0f;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+h2{
+    font-size: 28px;
+}
+p{
+    margin: 20px 0px;
+}
+
+img{
+    max-width: 100%;
 }
 
 /* Recomendaciones! 
