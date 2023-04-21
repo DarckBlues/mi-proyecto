@@ -35,6 +35,7 @@ a {
 main {
     max-width: 1200px;
     margin: auto;
+    
 }
 
 /*Estilos Generales*/
@@ -53,6 +54,7 @@ h1{
 
 h2{
     font-size: 28px;
+    text-align: center;
 }
 p{
     margin: 20px 0px;
@@ -61,6 +63,88 @@ p{
 img{
     max-width: 100%;
 }
+
+/* Header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    padding: 16px;
+    background-color: #fbfbfb;
+    box-shadow: 0px 5px 10px -5px #fF0000;
+    position: fixed;
+    top:0;
+    left: 0;
+}
+
+.logo {
+    width: 500px;
+}
+
+.menu {
+    display: flex;
+    font-size: 25px;
+}
+
+.menu li a {
+    padding: 16px;
+}
+
+/*section*/
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    min-height: 100vh;
+}
+
+#inicio {
+    justify-content: space-around;
+    
+}
+
+.celular-img img {
+    width: 400px; 
+    padding-top: 80px;
+}
+
+.presentacion {
+    width: 100%;
+    text-align: center;
+}
+
+.btn-ctlgo {
+    background-color:#FA5858 ;
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.redes {
+    width: 100%;
+    text-align: center;
+    background-color: #F78181;
+    border-radius: 20px;
+
+}
+
+div{
+
+    justify-content:space-evenly;
+    padding: 100px;
+}
+
+
+
+
+
 
 /* Recomendaciones! 
 *  - Comenzar desde lo más general y luego ir hacia lo mas específico, asignando primero
